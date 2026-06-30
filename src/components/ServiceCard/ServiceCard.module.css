@@ -1,0 +1,29 @@
+.card {
+  background: var(--color-white);
+  border: 1px solid rgba(13, 13, 13, 0.1);
+  border-radius: var(--radius);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  min-height: 310px;
+  padding: 26px;
+}
+
+.mark {
+  color: var(--color-gold);
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.card h3 {
+  color: var(--color-black);
+  font-size: 1.35rem;
+  line-height: 1.2;
+  margin: 18px 0 10px;
+}
+
+.card p {
+  color: #555;
+  flex: 1;
+  margin: 0 0 22px;
+}
